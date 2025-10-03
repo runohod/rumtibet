@@ -15,7 +15,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	/* font: inherit; */
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, 
@@ -47,4 +46,11 @@ a {
 p {
 	text-decoration: none;
 	color: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
