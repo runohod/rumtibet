@@ -1,0 +1,21 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+//   max-width: 1130px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1920px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    max-width: 100%;
+  }
+}
