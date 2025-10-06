@@ -4,14 +4,10 @@
 }
 
 .container {
-//   max-width: 1130px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 1920px) {
-  .container {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 390px) {
@@ -19,3 +15,4 @@
     max-width: 100%;
   }
 }
+
