@@ -1,8 +1,4 @@
-@import '/src/global/fonts.scss';
-@import '/src/global/section/header.scss';
-@import '/src/global/global.scss';
-@import '/src/global/reset.scss';
-@import '';
-@import '';
-@import '';
-@import '';
+@import url(./fonts.scss);
+@import url(./global.scss);
+@import url(./reset.scss);
+@import url(./section/header.scss);
