@@ -24,12 +24,14 @@
 
 .header__actions {
   display: flex;
-  column-gap: 50px;
+  column-gap: 49px;
+  color:#FDFDFD;
 }
 
 .header_nav {
   display: flex;
   align-items: center;
+  page: 24px;
 }
 
 .header_nav_list {
