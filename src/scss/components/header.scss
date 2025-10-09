@@ -71,7 +71,9 @@
 }
 
 .registration__bg {
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   margin-bottom: 82px;
@@ -83,10 +85,23 @@
 .registration__form {
   display: grid;
   grid-template-columns: repeat(3, 1fr) auto;
+  height: 81px;
+  margin-left: 43px;
+  margin-right: 42px;
+  gap: 24px;
 }
 
-
-
+.registration__button {
+  border-radius: 4px;
+  display: flex;
+  font-size: 16px;
+  background-color: var(--color-white);
+  width: 100%;
+  width: 157px;
+  height: 52px;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .registration__input-wrapper {
   display: flex;
@@ -94,7 +109,13 @@
   row-gap: 8px;
 }
 
-.select-wrapper {
-  position: relative;
-  display: inline;
+// .select-wrapper {
+//   position: relative;
+//   display: inline;
+// }
+
+.registration__label {
+    color: var(--color-white);
+    padding-left: 8px;
+    font-size: 14px;
 }
