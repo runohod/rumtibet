@@ -5,6 +5,7 @@
   background: url(../../assets/svg/header_bg.svg) no-repeat;
   width: 100%;
   height: 985px;
+  // font-family: 'NunitoSans-SemiBold', sans-serif;
 }
 .header {
   display: flex;
@@ -31,6 +32,7 @@
   display: flex;
   align-items: center;
   page: 24px;
+  width: 100%;
 }
 
 .header_nav_list {
@@ -40,6 +42,7 @@
 
 .header_nav_link {
   font-size: 18px;
+  font-family: 'NunitoSans-SemiBold', sans-serif;
 }
 
 .button-header {
@@ -62,6 +65,7 @@
 }
 
 .registration__title {
+  font-family: 'NextArt-Bold', sans-serif;
   font-size: 50px;
   text-transform: uppercase;
   color: var(--color-white);
@@ -115,10 +119,11 @@
   font-size: 16px;
   border: 1px solid white;
   width: 100%;
-  width: 157px;
+  width: 270px;
   height: 52px;
   justify-content: space-around;
   align-items: center;
+  font-family: 'NextArt-Bold', sans-serif;
 }
 
 .registration__label {

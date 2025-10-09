@@ -20,3 +20,27 @@
   --color-white: #ffffff;
   --color-button: #1a3e3e;
 }
+
+@font-face {
+  font-family: 'NextArt-Bold';
+  src: url('../assets/fonts/NEXTART-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'NunitoSans-SemiBold';
+    src: url('../assets/fonts/NunitoSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NunitoSans-Regular';
+    src: url('../assets/fonts/NunitoSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
