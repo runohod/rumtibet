@@ -58,6 +58,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 41px;
 }
 
 .registration__title {
@@ -67,4 +68,30 @@
   // margin-bottom: 284px;
   // margin-top: 551px;
   // margin-left: 370px;
+}
+
+.registration__bg {
+  gap: 24px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 82px;
+  border-radius: 10px;
+  width: 1180px;
+  height: 161px;
+}
+
+.registration__form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) auto;
+}
+
+.registration__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline;
 }
