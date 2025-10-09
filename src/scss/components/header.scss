@@ -109,10 +109,17 @@
   row-gap: 8px;
 }
 
-// .select-wrapper {
-//   position: relative;
-//   display: inline;
-// }
+.registration__button_hole {
+  border-radius: 8px;
+  display: flex;
+  font-size: 16px;
+  border: 1px solid white;
+  width: 100%;
+  width: 157px;
+  height: 52px;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .registration__label {
     color: var(--color-white);
