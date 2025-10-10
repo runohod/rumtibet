@@ -31,34 +31,36 @@
     border-radius: 24px;
 }
 
-
-
-
-.explore__video {
-    position: relative;
-    border-radius: 24px;
-    min-width: 280px;
-}
-
-.explore__play-button {
-    position: absolute;
-    bottom: 50%;
-    right: 50%;
-    transform: translate(50%, 50%);
-    border: none;
-    border-radius: 50%;
-    padding: 0;
-    width: 14.29%;
-    aspect-ratio: 1;
-    background: url(../assets/icons/play-button.svg) no-repeat center / contain;
-    transition-duration: var(--transition-duration);
-    transition-property: width;
-}
-
-.explore__body {
+.explore__right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     max-width: 580px;
+}
+
+.explore__title {
+    color: var(--color-yellow);
+    font-size: clamp(16px, 1.93vw, 24px);
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.explore__subtitle {
+    font-family: 'NunitoSans-ExtraBold', sans-serif;
+    font-size: clamp(24px, 2.58vw, 32px);
+    line-height: 1.2;
+}
+
+.explore__button {
+  border-radius: 4px;
+  display: flex;
+  font-size: 16px;
+  background-color: var(--color-white);
+  width: 100%;
+  width: 213px;
+  height: 52px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'NextArt-Bold', sans-serif;
 }
