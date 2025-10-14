@@ -49,9 +49,37 @@
   height: 52px;
   font-family: "NunitoSans-SemiBold", sans-serif;
   color: white;
+  margin-top: 40px;
 }
 
+.programs__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
+.programs__item {
+  position: relative;
+  padding-left: 66px;
+  gap: 16px;
+}
+
+.programs__icon {
+  position: absolute;
+  right: calc(100% - 50px);
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 50px;
+  height: 50px;
+}
+
+.programs__item-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+  font-family: "NunitoSans-ExtraBold", sans-serif;
+  font-weight: 700;
+   font-weight: bold;
+}
 
 
 .programs__images {
