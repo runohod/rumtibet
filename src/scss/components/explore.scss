@@ -68,22 +68,20 @@
   padding-bottom: 40px;
 }
 
-.explore__button {
-  border-radius: 4px;
-  display: flex;
-  font-size: 16px;
-  background-color: var(--color-white);
-  width: 100%;
-  width: 213px;
-  height: 52px;
-  justify-content: space-around;
-  align-items: center;
-  font-family: "NextArt-Bold", sans-serif;
-}
-
 .explore__description {
   padding-bottom: 40px;
   font-family: "NunitoSans-SemiBold", sans-serif;
   font-weight: 400;
   font-size: 18px;
+}
+
+.explore__button {
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: var(--color-button);
+  width: 100%;
+  width: 200px;
+  height: 52px;
+  font-family: "NunitoSans-SemiBold", sans-serif;
+  color: white;
 }
