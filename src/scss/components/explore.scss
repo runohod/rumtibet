@@ -7,13 +7,15 @@
 .explore__content {
   display: flex;
   gap: 120px;
+  justify-content: space-between;
 }
 
 .explore__images {
   position: relative;
-  width: 350px;
+  max-width: 480px;
   height: 400px;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .explore__back-img {
