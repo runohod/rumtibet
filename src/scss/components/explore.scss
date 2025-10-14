@@ -34,14 +34,14 @@
 
 .explore__img {
   position: absolute;
-  right: -50px;
+  right: 5px;
   max-width: 350px;
   height: 400px;
   border-radius: 24px;
   object-fit: cover;
   z-index: 2;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  top: 126px
+  top: 126px;
 }
 
 .explore__right {
@@ -54,15 +54,17 @@
 
 .explore__title {
   color: var(--color-yellow);
-  font-size: clamp(16px, 1.93vw, 24px);
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 8px;
   text-transform: uppercase;
+  font-family: "NunitoSans-SemiBold", sans-serif;
 }
 
 .explore__subtitle {
   font-family: "NunitoSans-ExtraBold", sans-serif;
-  font-size: clamp(24px, 2.58vw, 32px);
+  font-size: 32px;
+  font-weight: 800;
   padding-bottom: 40px;
 }
 
@@ -81,4 +83,7 @@
 
 .explore__description {
   padding-bottom: 40px;
+  font-family: "NunitoSans-SemiBold", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
