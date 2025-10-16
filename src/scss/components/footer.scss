@@ -37,23 +37,6 @@
   font-weight: 800;
 }
 
-
-
-
-.blogs__blog-footer {
-    margin-top: auto;
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-    font-family: var(--font-family-accent);
-}
-
-.footer__main {
-    background-color: var(--color-dark-grin);
-}
-
-
-
 .footer__form-body {
     display: flex;
     flex-direction: column;
@@ -61,17 +44,17 @@
     max-width: 536px;
 }
 
-.footer__form-input-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 280px;
-}
-
 .footer__form-action {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     gap: 16px 8px;
+}
+
+.footer__form-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
 }
 
 .footer__form-label {
@@ -86,6 +69,24 @@
     padding: 12px 16px;
     background-color: var(--color-background-light);
     border-radius: var(--border-radius-button);
+}
+
+.footer__button {
+
+}
+
+
+
+.blogs__blog-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    font-family: var(--font-family-accent);
+}
+
+.footer__main {
+    background-color: var(--color-dark-grin);
 }
 
 .footer__form-agreement {
