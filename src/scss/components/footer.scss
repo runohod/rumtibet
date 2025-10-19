@@ -82,7 +82,22 @@
   color: white;
 }
 
+.footer__main {
+  background-color: var(--color-button);
+}
 
+.footer__main-inner .container{
+    padding-top: calc(98px + 80px);
+    padding-bottom: 80px;
+}
+
+.footer__info {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  gap: 50px;
+  color: var(--color-light);
+}
 
 
 .blogs__blog-footer {
@@ -93,28 +108,10 @@
   font-family: var(--font-family-accent);
 }
 
-.footer__main {
-  background-color: var(--color-dark-grin);
-}
-
 .footer__form-agreement {
   font-family: "NunitoSans-SemiBold", sans-serif;
 }
 
-.footer__main-inner {
-  &.container {
-    padding-top: calc(98px + 80px);
-    padding-bottom: 80px;
-  }
-}
-
-.footer__info {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  justify-content: space-between;
-  gap: 50px;
-  color: var(--color-light);
-}
 
 .footer-title {
   font-size: 20px;
