@@ -105,25 +105,13 @@
   background-size: cover;
 }
 
-
-.blogs__blog-footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
-}
-
-.footer__form-agreement {
-}
-
-
 .footer-title {
   font-size: 20px;
   font-weight: 700;
 }
 
-.footer__about {
-  max-width: 480px;
+.footer__description {
+
 }
 
 .footer__contacts {
@@ -141,8 +129,8 @@
   border-radius: 50%;
 }
 
-.footer-block {
-  max-width: 280px;
+.footer__about {
+  max-width: 480px;
 }
 
 .footer-item {
@@ -150,11 +138,6 @@
   padding-left: calc(8px + 10px);
   padding-block: 8px;
   transition-property: color;
-}
-
-.footer-item--new {
-  position: relative;
-  display: inline-block;
 }
 
 .footer__extra {
@@ -165,14 +148,8 @@
   display: flex;
   justify-content: space-between;
   gap: 8px 20px;
-
-  &.container {
-    padding-block: 24px;
-  }
 }
 
 .footer__privacy-policy {
   text-decoration: underline;
-  transition-duration: var(--transition-duration);
-  transition-property: color;
 }
