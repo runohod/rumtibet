@@ -16,7 +16,7 @@
   // padding-inline: 16px;
   // padding-left: 100px;
   // padding-right: 100px;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   position: absolute;
   max-width: 1180px;
   width: 100%;
@@ -122,14 +122,23 @@
   width: 100%;
   background-position: center;
   background-size: cover;
+  // padding-top: 80px;
 }
 
 .footer-title {
   font-size: 20px;
   font-weight: 700;
+  padding-bottom: 17px;
+  font-family: "NunitoSans-SemiBold", sans-serif;
 }
 
-.footer__description {
+.footer__description p {
+  font-family: "NunitoSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 80px;
+  padding-right: 24px;
+  max-width: 456px;
 }
 
 .footer__contacts {
