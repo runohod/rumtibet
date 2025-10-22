@@ -6,7 +6,7 @@
 }
 
 // .blog__header {
- 
+
 // }
 
 .experience__title {
@@ -23,13 +23,29 @@
   font-family: "NunitoSans-ExtraBold", sans-serif;
   font-size: 32px;
   font-weight: 800;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
 .experience__img {
   text-align: center;
   padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.experience__images-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.experience__image {
+  object-fit: cover;
+  border-radius: 16px;
+  scroll-snap-align: center;
 }
 
 .experience__button {
