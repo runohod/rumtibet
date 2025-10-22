@@ -6,13 +6,11 @@
 }
 
 .container {
-display: flex;
-flex-direction: column;
-height: 100%;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
-
-
 
 .footer__form-wrapper {
   // padding-inline: 16px;
@@ -55,7 +53,7 @@ justify-content: space-between;
 
 .footer__form-subtitle {
   font-family: "NunitoSans-ExtraBold", sans-serif;
-  //   font-size: 26px;
+  font-size: 26px;
   font-weight: 800;
 }
 
@@ -65,6 +63,7 @@ justify-content: space-between;
   row-gap: 8px;
   max-width: 536px;
   padding-right: 100px;
+  padding-top: 40px;
 }
 
 .footer__form-action {
@@ -102,9 +101,6 @@ justify-content: space-between;
   font-family: "NunitoSans-SemiBold", sans-serif;
   color: white;
 }
-
-
-
 
 .footer__main {
 }
