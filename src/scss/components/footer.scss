@@ -144,11 +144,18 @@
 .footer__contacts {
   display: flex;
   column-gap: 24px;
+  padding-bottom: 24px;
+}
+
+.footer__contacts a {
+  font-family: "NunitoSans-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .footer__icons {
   display: flex;
-  column-gap: 4px;
+  gap: 16px;
 }
 
 .footer__icons-link {
