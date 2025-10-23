@@ -5,9 +5,59 @@
   text-align: center;
 }
 
-// .destinations__header {
+.destinations__list {
+    display: flex;
+    column-gap: 20px;
+    overflow-x: auto;
+    // scroll-snap-type: x mandatory;
+}
 
-// }
+.destinations__card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 32px;
+    max-width: 380px;
+    height: 500px;
+    width: 100%;
+    // scroll-snap-align: center;
+}
+
+.destinations__card-rating {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #FFFFFF40;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    padding: 7px 8px 7px 36px;
+    font-family: var(--font-family-accent);
+    color: var(--color-dark-grin);
+    transition-duration: 1s;
+    transition-property: right;
+}
+
+.destinations__card-body {
+    position: absolute;
+    bottom: calc(-100% + 90px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-inline: 32px;
+    background-color: var(--color-transparent-white);
+    backdrop-filter: blur(6px);
+    color: var(--color-light);
+    transition-duration: 1s;
+    transition-property: bottom;
+}
+
+.destinations__card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    white-space: nowrap;
+}
 
 .destinations__title {
   color: var(--color-yellow);
