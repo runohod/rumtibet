@@ -38,14 +38,35 @@
 
 .experience__images-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.experience__image {
-  object-fit: cover;
-  border-radius: 16px;
-  scroll-snap-align: center;
+.experience__image_1 {
+  grid-column: span 2 / span 2;
+}
+
+.experience__image_2 {
+  grid-column-start: 3;
+}
+
+.experience__image_3 {
+  grid-column-start: 4;
+}
+
+.experience__image_4 {
+  grid-row-start: 2;
+}
+
+.experience__image_5 {
+  grid-column: span 2 / span 2;
+  grid-row-start: 2;
+}
+
+.experience__image_6 {
+  grid-column-start: 4;
+  grid-row-start: 2;
 }
 
 .experience__button {
