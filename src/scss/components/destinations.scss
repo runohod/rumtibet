@@ -102,8 +102,8 @@
 
 .destinations__card-title-wrapper h4 {
   margin: 0;
-  color: #fff;
-  font-size: 18px;
+  color: white;
+  font-size: 24px;
   font-weight: 700;
   font-family: "NunitoSans-SemiBold", sans-serif;
   text-align: left;
@@ -112,19 +112,19 @@
 .destinations__card-title-wrapper p {
   margin: 4px 0 0;
   font-family: "NunitoSans-Regular", sans-serif;
-  font-size: 13px;
-  color: #dcdcdc;
+  font-size: 14px;
+  color: white;
   text-align: left;
+  font-weight: 400;
 }
 
 .destinations__card-price {
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 6px 14px;
   font-family: "NunitoSans-SemiBold", sans-serif;
-  font-size: 16px;
-  color: #fff;
-  white-space: nowrap;
+  font-size: 20px;
+  color: white;
 }
 
 .destinations__button {
