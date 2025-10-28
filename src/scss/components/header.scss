@@ -7,8 +7,8 @@
   height: 985px;
   background-position: center;
   background-size: cover;
-  // font-family: 'NunitoSans-SemiBold', sans-serif;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -28,6 +28,12 @@
   display: flex;
   column-gap: 49px;
   color: var(--color-white);
+}
+
+@media screen and (max-width: 390px) {
+  .header__actions {
+    display: none;
+  }
 }
 
 .header_nav {
@@ -76,28 +82,6 @@
   // margin-left: 370px;
 }
 
-// .registration__bg {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   width: 100%;
-//   background: rgba(255, 255, 255, 0.1);
-//   margin-bottom: 82px;
-//   border-radius: 10px;
-//   max-width: 1180px;
-//   width: 100%;
-//   height: 161px;
-//   backdrop-filter: blur(6px);
-// }
-
-// .registration__form {
-//   display: flex;
-//   height: 81px;
-//   margin-left: 43px;
-//   margin-right: 42px;
-//   gap: 24px;
-// }
-
 .registration__form {
   display: flex;
   width: 100%;
@@ -114,6 +98,18 @@
   align-items: center;
 }
 
+@media screen and (max-width: 390px) {
+  .registration__form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .registration__input-wrapper {
+    display: none;
+  }
+}
+
 .registration__button {
   border-radius: 4px;
   display: flex;
@@ -124,9 +120,17 @@
   justify-content: space-around;
   align-items: center;
   font-family: "NextArt-Bold", sans-serif;
-  background: transparent;
-  color: white;
+  // background: transparent;
+  color: rgb(0, 0, 0);
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 390px) {
+  .registration__button {
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 50px;
+  }
 }
 
 .registration__input-wrapper {
@@ -156,4 +160,14 @@
   padding-left: 8px;
   font-size: 14px;
   font-family: "NunitoSans-Regular", sans-serif;
+}
+
+.shtrihi {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  .shtrihi {
+    display: flex;
+  }
 }
