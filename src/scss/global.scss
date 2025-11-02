@@ -10,19 +10,6 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
-}
-
-
-@media screen and (max-width: 576px) {
-  .container {
-    max-width: 100%;
-  }
-}
-
 :root {
   --color-white: #ffffff;
   --color-button: #1a3e3e;
