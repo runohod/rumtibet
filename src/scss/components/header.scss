@@ -11,7 +11,19 @@
 
 @media screen and (max-width: 1200px) {
   .hero {
-    height: 850px;
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    height: 980px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 860px;
   }
 }
 
@@ -34,6 +46,25 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .header {
+    gap: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    gap: 37px;
+    padding-left: 21px;
+  }
+}
+
 .header_logo img {
   max-width: 137px;
   max-height: 72px;
@@ -42,6 +73,19 @@
 @media screen and (max-width: 1200px) {
   .header__logo {
     max-width: 110px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__logo {
+    max-width: 70px;
+    max-height: 65px;
   }
 }
 
@@ -57,22 +101,16 @@
   }
 }
 
-// @media screen and (max-width: 768px) {
-//   .header__actions {
-//     // display: none;
-//   }
-// }
+@media screen and (max-width: 768px) {
+  .header__actions {
+    column-gap: 0px;
+  }
+}
 
 .header_nav {
   display: flex;
   align-items: center;
   width: 100%;
-}
-
-@media screen and (max-width: 1200px) {
-  .header_nav {
-    width: none;
-  }
 }
 
 .header_nav_list {
@@ -83,6 +121,12 @@
 @media screen and (max-width: 1200px) {
   .header_nav_list {
     column-gap: 23px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_nav_list {
+    gap: 10px;
   }
 }
 
@@ -99,7 +143,13 @@
 
 @media screen and (max-width: 768px) {
   .header_nav_link {
-    column-gap: 12px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header_nav_link {
+    font-size: 10px;
   }
 }
 
@@ -113,6 +163,22 @@
   height: 44px;
   justify-content: space-around;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .button-header {
+    font-size: 13px;
+    width: 120px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .button-header {
+    font-size: 10px;
+    width: 95px;
+    height: 30px;
+  }
 }
 
 .registration {
@@ -136,6 +202,22 @@
   .registration__title {
     padding-left: 50px;
     font-size: 45px;
+    max-width: 1110px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .registration__title {
+    padding-left: 33px;
+    font-size: 35px;
+    max-width: 1110px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registration__title {
+    padding-left: 16px;
+    font-size: 25px;
     max-width: 1110px;
   }
 }
@@ -164,9 +246,21 @@
   }
 }
 
-@media screen and (max-width: 390px) {
-  .registration__input-wrapper {
-    display: none;
+@media screen and (max-width: 992px) {
+  .registration__form {
+    padding-left: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .registration__form {
+    padding-left: 33px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registration__form {
+    padding-left: 16px;
   }
 }
 
@@ -183,6 +277,19 @@
   // background: transparent;
   color: rgb(0, 0, 0);
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .registration__button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registration__button {
+    font-size: 10px;
+    height: 39px;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -223,11 +330,46 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .registration__button_hole {
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .registration__button_hole {
+    width: 165px;
+    font-size: 12px;
+    padding-left: 7px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registration__button_hole {
+    width: 140px;
+    font-size: 10px;
+    padding-left: 7px;
+    height: 37px;
+  }
+}
+
 .registration__label {
   color: var(--color-white);
   padding-left: 8px;
   font-size: 14px;
   font-family: "NunitoSans-Regular", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .registration__label {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registration__label {
+    font-size: 9px;
+  }
 }
 
 .shtrihi {
