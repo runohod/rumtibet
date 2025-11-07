@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1110px) {
   .hero {
     height: 980px;
   }
@@ -38,6 +38,7 @@
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 16px 40px 0 40px;
 }
 
 @media screen and (max-width: 1220px) {
@@ -46,11 +47,10 @@
     // gap: 175px;
     // justify-content: flex-start;
     // padding-left: 35px;
-    padding: 16px 40px 0;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1110px) {
   .header {
     gap: 75px;
   }
@@ -74,7 +74,7 @@
   max-height: 72px;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .header__logo img{
     max-width: 120px;
     height: 63px;
@@ -100,7 +100,7 @@
   color: var(--color-white);
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .header__actions {
     column-gap: 20px;
   }
@@ -123,7 +123,7 @@
   column-gap: 24px;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .header_nav_list {
     column-gap: 20px;
   }
@@ -140,7 +140,7 @@
   font-family: "NunitoSans-SemiBold", sans-serif;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .header_nav_link {
     font-size: 16px;
   }
@@ -170,7 +170,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .button-header {
     font-size: 14px;
     width: 140px;
@@ -211,7 +211,7 @@
   // margin-left: 370px;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .registration__title {
     padding-left: 50px;
     font-size: 45px;
@@ -251,7 +251,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .registration__form {
     gap: 15px;
     padding-left: 25px;
@@ -259,7 +259,7 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1110px) {
   .registration__form {
     padding-left: 35px;
   }
@@ -336,14 +336,14 @@
   padding-left: 16px;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .registration__button_hole {
     width: 260px;
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1110px) {
   .registration__button_hole {
     width: 225px;
   }
