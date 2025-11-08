@@ -56,16 +56,29 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 690px) {
   .header {
-    gap: 70px;
+    gap: 50px;
+    padding: 16px 20px 0 20px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .header {
-    gap: 37px;
-    padding-left: 21px;
+    gap: 25px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    padding: 16px 15px 0 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .header {
+    padding: 16px 20px 0 20px;
   }
 }
 
@@ -75,22 +88,30 @@
 }
 
 @media screen and (max-width: 1250px) {
-  .header__logo img{
+  .header__logo img {
     max-width: 120px;
     height: 63px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .header__logo {
-    max-width: 100px;
+@media screen and (max-width: 680px) {
+  .header__logo img {
+    max-width: 70px;
+    height: 30px;
   }
 }
 
-@media screen and (max-width: 576px) {
-  .header__logo {
-    max-width: 70px;
-    max-height: 65px;
+@media screen and (max-width: 500px) {
+  .header__logo img {
+    max-width: 50px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .header__logo img {
+    max-width: 84px;
+    height: 44px;
   }
 }
 
@@ -106,9 +127,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   .header__actions {
-    column-gap: 0px;
+    column-gap: 10px;
   }
 }
 
@@ -135,6 +156,18 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .header_nav_list {
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .header_nav_list {
+    display: none;
+  }
+}
+
 .header_nav_link {
   font-size: 18px;
   font-family: "NunitoSans-SemiBold", sans-serif;
@@ -146,15 +179,27 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 976px) {
   .header_nav_link {
     font-size: 13px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 850px) {
   .header_nav_link {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .header_nav_link {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .header_nav_link {
+    font-size: 6px;
   }
 }
 
@@ -178,7 +223,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 976px) {
   .button-header {
     font-size: 13px;
     width: 120px;
@@ -186,11 +231,33 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 850px) {
   .button-header {
     font-size: 10px;
     width: 95px;
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .button-header {
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button-header {
+    font-size: 6px;
+    width: 65px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .button-header {
+    display: none;
   }
 }
 
@@ -213,25 +280,36 @@
 
 @media screen and (max-width: 1250px) {
   .registration__title {
-    padding-left: 50px;
-    font-size: 45px;
-    max-width: 1110px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .registration__title {
-    padding-left: 33px;
-    font-size: 35px;
-    max-width: 1110px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .registration__title {
     padding-left: 16px;
-    font-size: 25px;
+    padding-right: 16px;
+    font-size: 40px;
     max-width: 1110px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .registration__title {
+    padding-right: 16px;
+    font-size: 30px;
+    max-width: 1110px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .registration__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .registration__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .registration__title {
+    font-size: 18px;
   }
 }
 
@@ -261,18 +339,6 @@
 
 @media screen and (max-width: 1110px) {
   .registration__form {
-    padding-left: 35px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .registration__form {
-    padding-left: 33px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .registration__form {
     padding-left: 16px;
   }
 }
@@ -292,25 +358,28 @@
   margin-bottom: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .registration__button {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
   .registration__button {
-    font-size: 10px;
-    height: 39px;
+    font-size: 9px;
+    height: 37px;
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 520px) {
   .registration__button {
-    display: flex;
-    padding-left: 16px;
-    padding-bottom: 50px;
-    font-size: 15px;
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .registration__button {
+    font-size: 5px;
   }
 }
 
@@ -349,20 +418,33 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .registration__button_hole {
-    width: 165px;
+    width: 170px;
     font-size: 12px;
-    padding-left: 7px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
   .registration__button_hole {
-    width: 140px;
-    font-size: 10px;
+    width: 125px;
+    font-size: 9px;
     padding-left: 7px;
     height: 37px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .registration__button_hole {
+    width: 100px;
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .registration__button_hole {
+    width: 80px;
+    font-size: 5px;
   }
 }
 
@@ -375,13 +457,19 @@
 
 @media screen and (max-width: 768px) {
   .registration__label {
-    font-size: 11px;
+    font-size: 8px;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 520px) {
   .registration__label {
-    font-size: 9px;
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .registration__label {
+    font-size: 3px;
   }
 }
 
@@ -392,5 +480,7 @@
 @media screen and (max-width: 390px) {
   .shtrihi {
     display: flex;
+    height: 30px;
+    width: 30px;
   }
 }
