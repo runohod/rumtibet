@@ -9,15 +9,9 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1200px) {
   .hero {
     height: 900px;
-  }
-}
-
-@media screen and (max-width: 1110px) {
-  .hero {
-    height: 980px;
   }
 }
 
@@ -47,38 +41,9 @@
   padding: 16px 40px 0 40px;
 }
 
-@media screen and (max-width: 1220px) {
-  .header {
-    // display: flex;
-    // gap: 175px;
-    // justify-content: flex-start;
-    // padding-left: 35px;
-  }
-}
-
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1200px) {
   .header {
     gap: 75px;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .header {
-    gap: 50px;
-    padding: 16px 20px 0 20px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .header {
-    gap: 25px;
-    padding-left: 15px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .header {
-    padding: 16px 15px 0 15px;
   }
 }
 
@@ -93,24 +58,10 @@
   max-height: 72px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .header__logo img {
     max-width: 120px;
     height: 63px;
-  }
-}
-
-@media screen and (max-width: 680px) {
-  .header__logo img {
-    max-width: 70px;
-    height: 30px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .header__logo img {
-    max-width: 50px;
-    height: 20px;
   }
 }
 
@@ -127,15 +78,9 @@
   color: var(--color-white);
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .header__actions {
     column-gap: 20px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .header__actions {
-    column-gap: 10px;
   }
 }
 
@@ -150,25 +95,13 @@
   column-gap: 24px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .header_nav_list {
     column-gap: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header_nav_list {
-    gap: 10px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .header_nav_list {
-    gap: 8px;
-  }
-}
-
-@media screen and (max-width: 390px) {
   .header_nav_list {
     display: none;
   }
@@ -179,33 +112,15 @@
   font-family: "NunitoSans-SemiBold", sans-serif;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .header_nav_link {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 992px) {
   .header_nav_link {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .header_nav_link {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .header_nav_link {
-    font-size: 8px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .header_nav_link {
-    font-size: 6px;
+    font-size: 12px;
   }
 }
 
@@ -221,7 +136,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .button-header {
     font-size: 14px;
     width: 140px;
@@ -229,7 +144,7 @@
   }
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 992px) {
   .button-header {
     font-size: 13px;
     width: 120px;
@@ -237,31 +152,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
-  .button-header {
-    font-size: 10px;
-    width: 95px;
-    height: 30px;
-  }
-}
-
-@media screen and (max-width: 590px) {
-  .button-header {
-    font-size: 10px;
-    width: 80px;
-    height: 30px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .button-header {
-    font-size: 6px;
-    width: 65px;
-    height: 20px;
-  }
-}
-
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .button-header {
     display: none;
   }
@@ -270,15 +161,13 @@
 .registration {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   gap: 41px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .registration {
     gap: 0px;
-    display: flex;
-    align-items: flex-start;
   }
 }
 
@@ -287,12 +176,9 @@
   font-size: 50px;
   text-transform: uppercase;
   color: var(--color-white);
-  // margin-bottom: 284px;
-  // margin-top: 551px;
-  // margin-left: 370px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .registration__title {
     padding-left: 16px;
     padding-right: 16px;
@@ -301,35 +187,17 @@
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
   .registration__title {
     padding-right: 16px;
     font-size: 30px;
     max-width: 1110px;
-  }
-}
-
-@media screen and (max-width: 610px) {
-  .registration__title {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .registration__title {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .registration__title {
-    font-size: 18px;
+    padding-bottom: 32px;
   }
 }
 
 @media screen and (max-width: 390px) {
   .registration__title {
-    padding-bottom: 32px;
     font-size: 28px;
     font-weight: 400;
     padding-left: 16px;
@@ -353,7 +221,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .registration__form {
     gap: 15px;
     padding-left: 25px;
@@ -361,13 +229,13 @@
   }
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 992px) {
   .registration__form {
     padding-left: 16px;
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .registration__form {
     display: none;
   }
@@ -388,68 +256,37 @@
   margin-bottom: 25px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .registration__button {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 770px) {
-  .registration__button {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .registration__button {
-    font-size: 9px;
-    height: 37px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .registration__button {
-    font-size: 7px;
-    margin-bottom: 18px;
-  }
-}
-
-@media screen and (max-width: 435px) {
-  .registration__button {
-    font-size: 5px;
-    margin-bottom: 16px;
-    width: 80px;
-    height: 37px;
-  }
-}
-
 .button__mobile {
-  padding-left: 16px;
-  padding-bottom: 50px;
+  display: none;
 }
 
-@media screen and (min-width: 390px) {
-  .registration__button__mobile {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .registration__button__mobile {
+@media screen and (max-width: 768px) {
+  .button__mobile {
     display: flex;
-    border-radius: 4px;
-    font-size: 16px;
-    width: 100%;
-    width: 213px;
-    height: 52px;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "NextArt-Bold", sans-serif;
-    color: rgb(0, 0, 0);
-    // padding-left: 16px;
-    // padding-right: 36px;
-    // padding-bottom: 16px;
+    padding-left: 16px;
+    padding-bottom: 50px;
   }
+}
+
+.registration__button__mobile {
+  display: flex;
+  border-radius: 4px;
+  display: flex;
+  font-size: 16px;
+  width: 100%;
+  width: 213px;
+  height: 52px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "NextArt-Bold", sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
 }
 
 .registration__input-wrapper {
@@ -474,46 +311,17 @@
   padding-left: 16px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .registration__button_hole {
     width: 260px;
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 992px) {
   .registration__button_hole {
-    width: 225px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .registration__button_hole {
-    width: 170px;
+    width: 175px;
     font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .registration__button_hole {
-    width: 125px;
-    font-size: 9px;
-    padding-left: 7px;
-    height: 37px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .registration__button_hole {
-    width: 100px;
-    font-size: 7px;
-  }
-}
-
-@media screen and (max-width: 435px) {
-  .registration__button_hole {
-    width: 80px;
-    font-size: 5px;
   }
 }
 
@@ -530,23 +338,11 @@
   }
 }
 
-@media screen and (max-width: 520px) {
-  .registration__label {
-    font-size: 5px;
-  }
-}
-
-@media screen and (max-width: 435px) {
-  .registration__label {
-    font-size: 3px;
-  }
-}
-
 .shtrihi {
   display: none;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .shtrihi {
     display: flex;
     height: 30px;
