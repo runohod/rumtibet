@@ -364,6 +364,12 @@
   }
 }
 
+@media screen and (max-width: 770px) {
+  .registration__button {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .registration__button {
     font-size: 9px;
@@ -374,12 +380,14 @@
 @media screen and (max-width: 520px) {
   .registration__button {
     font-size: 7px;
+    margin-bottom: 18px;
   }
 }
 
 @media screen and (max-width: 435px) {
   .registration__button {
     font-size: 5px;
+    margin-bottom: 16px;
   }
 }
 
