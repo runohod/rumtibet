@@ -27,6 +27,12 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .hero {
+    height: 600px;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -268,6 +274,14 @@
   gap: 41px;
 }
 
+@media screen and (max-width: 390px) {
+  .registration {
+    gap: 0px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
 .registration__title {
   font-family: "NextArt-Bold", sans-serif;
   font-size: 50px;
@@ -313,6 +327,16 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .registration__title {
+    padding-bottom: 32px;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 16px;
+    padding-right: 29px;
+  }
+}
+
 .registration__form {
   display: flex;
   width: 100%;
@@ -340,6 +364,12 @@
 @media screen and (max-width: 1110px) {
   .registration__form {
     padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .registration__form {
+    display: none;
   }
 }
 
@@ -388,6 +418,37 @@
   .registration__button {
     font-size: 5px;
     margin-bottom: 16px;
+    width: 80px;
+    height: 37px;
+  }
+}
+
+.button__mobile {
+  padding-left: 16px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 390px) {
+  .registration__button__mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .registration__button__mobile {
+    display: flex;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    width: 213px;
+    height: 52px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "NextArt-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    // padding-left: 16px;
+    // padding-right: 36px;
+    // padding-bottom: 16px;
   }
 }
 
