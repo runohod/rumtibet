@@ -15,12 +15,24 @@
   text-align: center;
 }
 
+@media screen and (max-width: 992px) {
+  .destinations__title {
+    font-size: 17px;
+  }
+}
+
 .destinations__subtitle {
   font-family: "NunitoSans-ExtraBold", sans-serif;
   font-size: 32px;
   font-weight: 800;
   padding-bottom: 50px;
   text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .destinations__subtitle {
+    font-size: 25px;
+  }
 }
 
 .destinations__list {
@@ -136,4 +148,12 @@
   height: 52px;
   font-family: "NunitoSans-SemiBold", sans-serif;
   color: white;
+}
+
+@media screen and (max-width: 390px) {
+  .destinations__button {
+    font-size: 16px;
+    width: 220px;
+    height: 44px;
+  }
 }
