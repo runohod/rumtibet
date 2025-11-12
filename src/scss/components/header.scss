@@ -309,6 +309,14 @@
   background: transparent;
   color: white;
   padding-left: 16px;
+  -webkit-appearance: none; 
+  -moz-appearance: none;  
+  background-image: url(../../assets/svg/header-select.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 16px;
+  padding-right: 40px; 
+  pointer-events: none;
 }
 
 @media screen and (max-width: 1200px) {
