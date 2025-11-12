@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
   .hero {
     height: 600px;
   }
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 212px;
+  // gap: 212px;
   text-decoration: none;
   padding-top: 16px;
   width: 100%;
@@ -43,11 +43,11 @@
 
 @media screen and (max-width: 1200px) {
   .header {
-    gap: 75px;
+    gap: 35px;
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
   .header {
     padding: 16px 20px 0 20px;
   }
@@ -60,12 +60,12 @@
 
 @media screen and (max-width: 1200px) {
   .header__logo img {
-    max-width: 120px;
+    max-width: 80px;
     height: 63px;
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
   .header__logo img {
     max-width: 84px;
     height: 44px;
@@ -196,7 +196,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
   .registration__title {
     font-size: 28px;
     font-weight: 400;
