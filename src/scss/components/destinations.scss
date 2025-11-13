@@ -3,6 +3,8 @@
   padding-top: 80px;
   padding-bottom: 100px;
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .destinations__title {
@@ -41,25 +43,49 @@
   padding-bottom: 50px;
 }
 
-.destinations__item-1 {
-  position: relative;
-  overflow: hidden;
+@media screen and (max-width: 992px) {
+  .destinations__list {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
 }
 
-.destinations__item-2 {
-  position: relative;
-  overflow: hidden;
-}
-
+.destinations__item-1,
+.destinations__item-2,
 .destinations__item-3 {
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
+  // width: 180px;
+}
+
+@media screen and (max-width: 992px) {
+  .destinations__item-1,
+  .destinations__item-2,
+  .destinations__item-3 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .destinations__item-1,
+  .destinations__item-2,
+  .destinations__item-3 {
+    width: 285px;
+  }
 }
 
 .destinations_img {
   width: 100%;
-  max-width: 380px;
   max-height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 576px) {
+  .destinations_img{
+    max-height: 400px;
+  }
 }
 
 .destinations__card-rating {
@@ -105,6 +131,12 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 576px) {
+  .destinations__card-body {
+    height: 70px;
+  }
+}
+
 .destinations__card-header {
   display: flex;
   align-items: center;
@@ -121,13 +153,37 @@
   text-align: left;
 }
 
-.destinations__card-title-wrapper p {
+@media screen and (max-width: 992px) {
+  .destinations__card-title-wrapper h4 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .destinations__card-title-wrapper h4 {
+    font-size: 18px;
+  }
+}
+
+.destinations__card-title-wrapper div {
   margin: 4px 0 0;
   font-family: "NunitoSans-Regular", sans-serif;
   font-size: 14px;
   color: white;
   text-align: left;
   font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+  .destinations__card-title-wrapper div {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .destinations__card-title-wrapper div {
+    display: none;
+  }
 }
 
 .destinations__card-price {
@@ -137,6 +193,18 @@
   font-family: "NunitoSans-SemiBold", sans-serif;
   font-size: 20px;
   color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .destinations__card-price {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .destinations__card-price {
+    font-size: 16px;
+  }
 }
 
 .destinations__button {
@@ -150,7 +218,7 @@
   color: white;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
   .destinations__button {
     font-size: 16px;
     width: 220px;
