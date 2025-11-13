@@ -5,7 +5,13 @@
 }
 
 .blogs__body {
-padding-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .blogs__body {
+    padding-bottom: 32px;
+  }
 }
 
 .blog__title {
@@ -18,12 +24,36 @@ padding-bottom: 50px;
   text-align: center;
 }
 
+@media screen and (max-width: 992px) {
+  .blog__title {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blog__title {
+    font-size: 16px;
+  }
+}
+
 .blog__subtitle {
   font-family: "NunitoSans-ExtraBold", sans-serif;
   font-size: 32px;
   font-weight: 800;
   padding-bottom: 40px;
   text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .blog__subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 576) {
+  .blog__subtitle {
+    font-size: 24px;
+  }
 }
 
 .blogs__blog-wrapper {
@@ -34,29 +64,58 @@ padding-bottom: 50px;
   scroll-snap-type: x mandatory;
 }
 
+@media screen and (max-width: 992px) {
+  .blogs__blog-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blogs__blog-wrapper {
+    gap: 0px;
+  }
+}
+
 .blogs__blog {
   display: flex;
   align-items: center;
   gap: 24px;
+  width: 100%;
   max-width: 580px;
   background-color: white;
   border-radius: 10px;
   padding: 24px;
 }
 
+@media screen and (max-width: 992px) {
+  .blogs__blog {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+    padding-right: 24px;
+  }
+}
+
 .blogs__blog-image {
   border-radius: 6px;
-  // object-fit: cover;
-  // object-position: top;
   width: 100%;
   max-width: 230px;
   max-height: 280px;
 }
 
+@media screen and (max-width: 576px) {
+  .blogs__blog-image {
+    max-width: 285px;
+    max-height: 280px;
+  }
+}
+
 .blogs__blog-content {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  // height: 100%;
   width: 100%;
   padding-block: 16px;
 }
@@ -71,14 +130,27 @@ padding-bottom: 50px;
   font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+  .blogs__blog-title {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+}
+
 .blogs__blog-description p {
   width: 100%;
-  font-family: 'NunitoSans-Regular', sans-serif;
+  font-family: "NunitoSans-Regular", sans-serif;
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 24px;
   text-align: left;
+}
 
+@media screen and (max-width: 576px) {
+  .blogs__blog-description p {
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
 }
 
 .blogs__blog-footer {
@@ -107,4 +179,12 @@ padding-bottom: 50px;
   height: 52px;
   font-family: "NunitoSans-SemiBold", sans-serif;
   color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .blog__button {
+    width: 196px;
+    height: 44px;
+    font-size: 15px;
+  }
 }
