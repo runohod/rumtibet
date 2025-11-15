@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(../../assets/svg/header_bg.svg) no-repeat;
+  background: url(../../assets/img/header_bg.png) no-repeat;
   width: 100%;
   height: 985px;
   background-position: center;
@@ -180,7 +180,7 @@
 
 @media screen and (max-width: 1200px) {
   .registration__title {
-    padding-left: 16px;
+    padding-left: 35px;
     padding-right: 16px;
     font-size: 40px;
     max-width: 1110px;
@@ -255,7 +255,7 @@
   display: flex;
   font-size: 16px;
   width: 100%;
-  width: 213px;
+  // width: 213px;
   height: 52px;
   justify-content: space-around;
   align-items: center;
@@ -318,13 +318,13 @@
   background: transparent;
   color: white;
   padding-left: 16px;
-  -webkit-appearance: none; 
-  -moz-appearance: none;  
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background-image: url(../../assets/svg/header-select.svg);
   background-repeat: no-repeat;
   background-position: right 16px center;
   background-size: 16px;
-  padding-right: 40px; 
+  padding-right: 40px;
   pointer-events: none;
 }
 

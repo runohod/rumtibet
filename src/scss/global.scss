@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
 .container {
   max-width: 1180px;
   width: 100%;
@@ -13,30 +19,29 @@
 :root {
   --color-white: #ffffff;
   --color-button: #1a3e3e;
-  --color-yellow: #F2BE22;
-;
+  --color-yellow: #f2be22;
 }
 
 @font-face {
-  font-family: 'NextArt-Bold';
-  src: url('../assets/fonts/NEXTART-Bold.woff2') format('woff2');
+  font-family: "NextArt-Bold";
+  src: url("../assets/fonts/NEXTART-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-    font-family: 'NunitoSans-SemiBold';
-    src: url('../assets/fonts/NunitoSans-SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: "NunitoSans-SemiBold";
+  src: url("../assets/fonts/NunitoSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'NunitoSans-Regular';
-    src: url('../assets/fonts/NunitoSans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "NunitoSans-Regular";
+  src: url("../assets/fonts/NunitoSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
